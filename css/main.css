@@ -1,0 +1,261 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised;
+  background: #ff; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.logo-desk {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 30%);
+  -ms-transform: translate(-50%, 30%);
+  transform: translate(-50%, 30%); }
+
+header {
+  margin-top: 35px;
+  margin-bottom: 25px; }
+
+header .col-md-5 ul {
+  background-color: #001933;
+  padding: 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  font-size: 18px;
+  text-align: center;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap; }
+
+header li a {
+  color: white; }
+  header li a:hover {
+    text-decoration: none;
+    color: white; }
+
+header .col-md-2 {
+  text-align: center; }
+
+header .col-md-5 ul li:nth-child(4) {
+  padding-right: 10px; }
+
+.govLogo {
+  display: inline-block; }
+
+.gov_name {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 30px; }
+
+.gov_prob {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 25, 51, 0.21);
+  box-shadow: 0px 4px 4px rgba(0, 25, 51, 0.21);
+  width: 100%; }
+  .gov_prob .prob {
+    padding: 5px 10px; }
+  .gov_prob a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px; }
+    .gov_prob a:hover {
+      color: black; }
+  .gov_prob i {
+    display: block;
+    font-size: 12px;
+    font-style: normal; }
+
+.gov_prob .prob:nth-child(odd) {
+  background: rgba(0, 25, 51, 0.03); }
+
+.last-news {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 25, 51, 0.21);
+  box-shadow: 0px 4px 4px rgba(0, 25, 51, 0.21); }
+  .last-news .new {
+    margin-bottom: 25px; }
+    .last-news .new:nth-child(odd) {
+      background: rgba(0, 25, 51, 0.03); }
+  .last-news_title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 10px; }
+    .last-news_title img {
+      padding-right: 15px; }
+    .last-news_title h5 {
+      text-transform: uppercase;
+      color: #D2004C;
+      font-weight: bold; }
+  .last-news i {
+    font-size: 12px;
+    position: absolute;
+    -webkit-transform: rotate(-90deg) translateX(-100%);
+    -ms-transform: rotate(-90deg) translateX(-100%);
+    transform: rotate(-90deg) translateX(-100%);
+    font-style: normal;
+    color: rgba(0, 25, 51, 0.5); }
+  .last-news a {
+    padding: 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-top: 5%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-size: 12px; }
+    .last-news a:hover {
+      text-decoration: none;
+      color: black; }
+    .last-news a img {
+      width: 50%;
+      height: 50%; }
+
+.carousel-caption {
+  position: absolute; }
+  .carousel-caption h5 {
+    font-size: 1.1em;
+    width: 70%;
+    position: relative;
+    -webkit-transform: translateY(50%) translateX(-10%);
+    -ms-transform: translateY(50%) translateX(-10%);
+    transform: translateY(50%) translateX(-10%); }
+  .carousel-caption h6 {
+    font-size: 1.1em;
+    position: relative;
+    -webkit-transform: translateY(-150%) translateX(35%);
+    -ms-transform: translateY(-150%) translateX(35%);
+    transform: translateY(-150%) translateX(35%); }
+  .carousel-caption p {
+    font-size: 1.1em;
+    position: relative;
+    -webkit-transform: translateY(-120%) translateX(35%);
+    -ms-transform: translateY(-120%) translateX(35%);
+    transform: translateY(-120%) translateX(35%); }
+
+.people-news {
+  margin-top: 20px; }
+  .people-news .about-user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .people-news .about-user .user {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding-top: 10px; }
+      .people-news .about-user .user .name {
+        padding-top: 15px; }
+      .people-news .about-user .user .region {
+        line-height: 5px;
+        color: rgba(0, 0, 0, 0.5); }
+  .people-news .extra_details {
+    color: rgba(0, 0, 0, 0.5); }
+  .people-news .user-photos {
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .people-news .user-photos img {
+      display: inline-block; }
+
+.comments {
+  margin-top: 40px; }
+  .comments .about-user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .comments .about-user .user {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .comment .stick {
+    padding-right: 40px; }
+  .comment .like {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .comment .like img {
+      padding-right: 5px; }
+  .comment .user-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .comment .user-section p {
+      padding-right: 25px; }
+  .comment .comment-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .comment .comment-text .text {
+      margin-right: 50px; }
+    .comment .comment-text .like {
+      float: right; }
+  .comment .name {
+    margin-top: 7px; }
+
+.city {
+  margin-top: 50px; }
+  .city img {
+    display: block;
+    height: 105%;
+    width: 105%; }
+  .city ul.cities {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    list-style: none; }
+    .city ul.cities li a {
+      font-size: 12px;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.5) !important; }
+      .city ul.cities li a:hover {
+        color: black !important; }
+
+.ad {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 25, 51, 0.21);
+  box-shadow: 0px 4px 4px rgba(0, 25, 51, 0.21);
+  margin-top: 15px; }
+  .ad img {
+    width: 100%;
+    height: 100%; }
+
+header .row li a:hover {
+  color: #D2004C; }
+
+.second-nav-mobile a.nav-link:hover {
+  color: #D2004C !important; }

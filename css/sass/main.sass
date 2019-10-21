@@ -1,0 +1,213 @@
+@import "bourbon/bourbon"
+
+$header-color: #001933
+$text-color: #001933
+$last-news: #D2004C
+
+
+
+body
+	font-family: "Raleway", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.42857
+	-webkit-font-smoothing: antialised
+	background: #ff
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+
+.logo-desk
+	position: absolute
+	top: 0
+	left: 50%
+	transform: translate(-50%,30%)
+header 
+	margin-top: 35px
+	margin-bottom: 25px
+header .col-md-5 ul
+
+	background-color: $header-color
+	padding: 25px 0
+	display: flex
+	list-style: none
+	justify-content: space-around
+	font-size: 18px
+	text-align: center
+	flex-wrap: nowrap
+header li a
+	color: white
+	&:hover
+		text-decoration: none
+		color: white
+header .col-md-2
+	text-align: center
+header .col-md-5 ul li:nth-child(4)
+	padding-right: 10px
+
+.gov_title
+.govLogo
+	display: inline-block
+.gov_name
+	display: inline-block
+	font-size: 18px
+	line-height: 30px
+.gov_prob 
+	box-shadow: 0px 4px 4px rgba(0, 25, 51, 0.21)
+	width: 100%
+	.prob
+		padding: 5px 10px 
+	a
+		text-decoration: none
+		color: black
+		font-size: 14px
+		&:hover
+			color: black
+	i
+		display: block
+		font-size: 12px
+		font-style: normal
+.gov_prob .prob:nth-child(odd)
+	background: rgba(0, 25, 51, 0.03);
+
+.last-news
+	box-shadow: 0px 4px 4px rgba(0, 25, 51, 0.21);
+	.new
+		margin-bottom: 25px
+		&:nth-child(odd)
+			background: rgba(0, 25, 51, 0.03);
+	&_title
+		display: flex
+		justify-content: flex-start
+		margin-bottom: 10px
+		img
+			padding-right: 15px	
+		h5
+			text-transform: uppercase
+			color: $last-news
+			font-weight: bold		
+	i
+		font-size: 12px
+		position: absolute 	
+		transform: rotate(-90deg) translateX(-100%)
+		font-style: normal
+		color: rgba(0, 25, 51, 0.5);
+	a
+		padding: 0 20px
+		display: flex
+		flex-wrap: nowrap
+		padding-top: 5%
+		justify-content: space-between
+		text-decoration: none
+		color: black
+		font-size: 12px
+		&:hover
+			text-decoration: none
+			color: black
+		img
+			width: 50%
+			height: 50%
+.carousel-caption
+	position: absolute
+	h5
+		font-size: 1.1em
+		width: 70%
+		position: relative
+		transform: translateY(50%) translateX(-10%)
+	h6
+		font-size: 1.1em
+		position: relative
+		transform: translateY(-150%) translateX(35%)
+	p
+		font-size: 1.1em
+		position: relative
+		transform: translateY(-120%) translateX(35%)
+
+.people-news 
+	margin-top: 20px
+	.about-user
+		display: flex
+		justify-content: space-between
+		.user
+			display: flex
+			padding-top: 10px
+			.name
+				padding-top: 15px
+			.region
+				line-height: 5px
+				color:  rgba(0, 0, 0, 0.5)
+	.extra_details
+		color:  rgba(0, 0, 0, 0.5)
+	.user-photos
+		margin-top: 15px
+		display: flex
+		justify-content: space-around
+		img
+			display: inline-block
+.comments
+	margin-top: 40px
+	.about-user
+		display: flex
+		justify-content: space-between
+		.user
+			display: flex
+
+		
+.comment
+	display: flex
+	.stick
+		padding-right: 40px;
+	.like
+		display: flex
+		img
+			padding-right: 5px
+	.user-section
+		display: flex
+		p
+			padding-right: 25px
+	.comment-text
+		display: flex
+		.text
+			margin-right: 50px
+		.like
+			float: right
+	.name
+		margin-top: 7px
+.city
+	margin-top: 50px
+	img
+		display: block
+		height: 105%
+		width: 105%
+	ul.cities
+		position: absolute
+		top: 40%
+		left: 55%
+		list-style: none
+		li a
+			font-size: 12px
+			text-decoration: none
+			color:rgba(0, 0, 0, 0.5)!important
+			&:hover
+				color: black!important
+.ad
+	box-shadow: 0px 4px 4px rgba(0, 25, 51, 0.21);
+	margin-top: 15px
+	img
+		width: 100%
+		height: 100%
+header .row li a
+	&:hover
+		color: $last-news
+.second-nav-mobile a.nav-link
+	&:hover
+		color: $last-news!important
+		
+	
